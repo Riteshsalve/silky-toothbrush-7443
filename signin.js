@@ -26,6 +26,7 @@ function signInForms(){
 
   if(flag===true){
     alert("Sign In Succussful")
+    location.href="./index.html"
   }
   else if(count==1){
     alert("Wrong Password")

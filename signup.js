@@ -43,7 +43,7 @@ function submitform(){
    localStorage.setItem("SignUp",JSON.stringify(signupForm))
    if(firstname.value==="" || lastname.value==="" ){
       
-      alert("plese gave input");
+      alert("please input a value");
       firstname.innerHTML=""
       lastname.innerHTML=""
       phoneNumber.innerHTML=""
